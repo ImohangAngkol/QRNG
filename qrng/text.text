@@ -1,0 +1,26 @@
+The process of how it works
+
+[Raw system entropy sources]
+         ↓
+   SHA-256 combo (hashing)
+         ↓
+  Internal entropy pool
+         ↓
++ More entropy added again
+         ↓
+   Re-hashed = Final bytes
+         ↓
+→ Format: bits / int / float / normal
+
+
+it's a combo + combo + combo type of QRNG 
+A pseudo Quantum type of python code.
+
+so, how i got the code is a mixture of my coding and ai-assisted coding
+this shit made tons of red lines while coding and when i let chatgpt fix it ,it added more errors
+
+then i went to deepseek to add a specific type  of hasing i wanted then boom
+
+time wasted : 58 minutes + 5 minutes of typing this
+
+I made sure to let chatgpt identify it by parts so jiandale wont get confused what i did.
